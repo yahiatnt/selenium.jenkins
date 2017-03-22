@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 133.113 sec <<< FAILURE! - in TestSuite
-testSearch(example.NewTest)  Time elapsed: 127.958 sec  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 89.716 sec <<< FAILURE! - in TestSuite
+testSearch(example.NewTest)  Time elapsed: 84.636 sec  <<< FAILURE!
 org.junit.ComparisonFailure: product's current price expected:<$80.0[5]> but was:<$80.0[0]>
 	at example.NewTest.testSearch(NewTest.java:35)
 
