@@ -32,7 +32,7 @@ public class NewTest {
 		for (WebElement productObj : productsObj) {
 			if (productObj.findElement(productTitle).getText().equalsIgnoreCase("Apple TV")) {
 				Assert.assertEquals("product's old price", "$89.00", productObj.findElement(oldPrice).getText());
-				Assert.assertEquals("product's current price", "$80.05",
+				Assert.assertEquals("product's current price", "$80.00",
 						productObj.findElement(currentPrice).getText());
 			}
 			else {
