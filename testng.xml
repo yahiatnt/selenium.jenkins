@@ -16,4 +16,9 @@
   		<class name="example.TestXML"></class>
   	</classes>
   </test>
+  <test name="REST Assured SOAP">
+  	<classes>
+  		<class name="example.TestSOAP"></class>
+  	</classes>
+  </test>
 </suite> <!-- Suite -->

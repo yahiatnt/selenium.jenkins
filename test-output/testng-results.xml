@@ -1,41 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="25920" started-at="2017-03-28T13:26:12Z" finished-at="2017-03-28T13:26:38Z">
+  <suite name="Default suite" duration-ms="4073" started-at="2017-03-28T22:46:44Z" finished-at="2017-03-28T22:46:48Z">
     <groups>
     </groups>
-    <test name="Selenium Test" duration-ms="21458" started-at="2017-03-28T13:26:12Z" finished-at="2017-03-28T13:26:34Z">
-      <class name="example.NewTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.NewTest@204f30ec]" name="beforeTest" is-config="true" duration-ms="4713" started-at="2017-03-28T15:26:12Z" finished-at="2017-03-28T15:26:17Z">
+    <test name="Default test" duration-ms="4073" started-at="2017-03-28T22:46:44Z" finished-at="2017-03-28T22:46:48Z">
+      <class name="example.TestSOAP">
+        <test-method status="PASS" signature="testSOAPResponse()[pri:0, instance:example.TestSOAP@523884b2]" name="testSOAPResponse" duration-ms="4042" started-at="2017-03-29T00:46:44Z" finished-at="2017-03-29T00:46:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testSearch()[pri:0, instance:example.NewTest@204f30ec]" name="testSearch" duration-ms="15621" started-at="2017-03-28T15:26:17Z" finished-at="2017-03-28T15:26:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearch -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.NewTest@204f30ec]" name="afterTest" is-config="true" duration-ms="1109" started-at="2017-03-28T15:26:33Z" finished-at="2017-03-28T15:26:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- example.NewTest -->
-    </test> <!-- Selenium Test -->
-    <test name="REST Assured JSON" duration-ms="3120" started-at="2017-03-28T13:26:34Z" finished-at="2017-03-28T13:26:37Z">
-      <class name="example.TestJSON">
-        <test-method status="PASS" signature="testJSONResponse()[pri:0, instance:example.TestJSON@5f2108b5]" name="testJSONResponse" duration-ms="3120" started-at="2017-03-28T15:26:34Z" finished-at="2017-03-28T15:26:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testJSONResponse -->
-      </class> <!-- example.TestJSON -->
-    </test> <!-- REST Assured JSON -->
-    <test name="REST Assured XML" duration-ms="1296" started-at="2017-03-28T13:26:37Z" finished-at="2017-03-28T13:26:38Z">
-      <class name="example.TestXML">
-        <test-method status="PASS" signature="testXMLResponse()[pri:0, instance:example.TestXML@6e06451e]" name="testXMLResponse" duration-ms="1296" started-at="2017-03-28T15:26:37Z" finished-at="2017-03-28T15:26:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testXMLResponse -->
-      </class> <!-- example.TestXML -->
-    </test> <!-- REST Assured XML -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- testSOAPResponse -->
+      </class> <!-- example.TestSOAP -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
